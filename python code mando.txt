@@ -1,0 +1,12 @@
+1.)def f_common_names(list1, list2):
+    common_names = []
+
+    for item in list1:
+        if item in list2:
+            common_names.append(item)
+    return common_names
+
+list1=["Ramesh","Suresh","Mahesh","Ali","Jacob","Saritha"]
+list2=["Ali","Mukesh","Mahesh","Jacob","Sai","Sarita"]
+common_names = f_common_names(list1, list2)
+print("Common names:", common_names)
